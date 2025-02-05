@@ -1,0 +1,15 @@
+/* Users can chose to use RoughNotations or Regular markings for <mark/> and <underline/> in src/scripts/enhanceDOM.mjs */
+
+code.inline {
+    padding: 3px;
+    background-color: rgba(0, 100, 100, 0.5);
+    border-radius: 2px;
+}
+
+td, th {
+    text-align: left;
+}
+
+tr:first-child {
+    border-bottom: #000 2px solid;
+}

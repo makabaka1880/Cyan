@@ -1,0 +1,9 @@
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+}

@@ -1,0 +1,9 @@
+mark {
+    background-color: var(--light-cyan);
+    color: white;
+}
+
+box {
+    padding: 1px 3px 1px 3px;
+    border: var(--reg-cyan) 2px solid;
+}
