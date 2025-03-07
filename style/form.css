@@ -30,6 +30,7 @@ button {
     border: none;
     color: var(--light-cyan);
     transition: color 0.3s ease-in-out, transform 0.2s;
+    white-space: nowrap;
 }
 
 button:hover {
