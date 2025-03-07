@@ -3,6 +3,7 @@
 @import url('list.css');
 @import url('palette.css');
 @import url('markdown.css');
+@import url('form.css');
 
 body {
     font-family: 'JetBrainsMono', monospace;
