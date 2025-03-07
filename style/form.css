@@ -1,0 +1,62 @@
+input[type='text'],
+input[type='email'],
+select {
+    border: none;
+    padding: 8px;
+    border-bottom: var(--dark-cyan) 1.5px solid;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    width: 100%;
+    transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+select:focus {
+    border-bottom: var(--light-cyan) 2px solid;
+    background: transparent;
+}
+
+#otherParticipation {
+    padding-top: 20px;
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: var(--light-cyan);
+    color: white;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+    background-color: var(--reg-cyan);
+    transform: scale(1.05);
+}
+
+#submitBtn {
+    display: none;
+}
+
+.md.ques {
+    display: none; /* Start hidden, JavaScript will reveal them */
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.md.ques[style*="display: block"] {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.md.ques {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.md.ques[style*="display: block"] {
+    opacity: 1;
+}

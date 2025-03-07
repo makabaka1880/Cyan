@@ -1,0 +1,31 @@
+.navbar {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--black-cyan);
+}
+
+.navbar a:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -0.5rem; /* Position between items */
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1.2em;
+    width: 1px;
+    background: white;
+}
+
+.navbar a {
+    color: white;
+    position: relative;
+    padding: 0 1rem;
+    text-decoration: none;
+    transition: text-decoration 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+
+.navbar a:hover {
+    color: var(--light-cyan);
+    text-decoration: underline;
+}

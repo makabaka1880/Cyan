@@ -1,6 +1,11 @@
 body {
-    --black-cyan: #001111;
-    --dark-cyan: #003333;
-    --reg-cyan: #006666;
-    --light-cyan: #00aaaa;
+    --black-cyan: #011;
+    --dark-cyan: #033;
+    --reg-cyan: #066;
+    --light-cyan: #0aa;
+    --dark-gray: #333;
+    --reg-gray: #666;
+    --caption-gray: #888;
+    --bg-gray: #aaa;
+    --light-gray: #eee;
 }

@@ -1,0 +1,21 @@
+@import url('navbar.css');
+
+.heading-block {
+    color: var(--black-cyan)
+}
+
+.heading-block, .section-block {
+    display: flex;
+flex-direction: column;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.heading-block h1 {
+    font-size: 3em;
+}
+
+.dateline {
+    color: var(--caption-gray)
+}

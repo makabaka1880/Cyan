@@ -1,6 +1,4 @@
-.content {
-    margin: -8px;
-}
+@import url('navbar.css');
 
 .heading-block {
     color: white;
@@ -16,3 +14,4 @@
 .heading-block h1 {
     font-size: 5em;
 }
+
