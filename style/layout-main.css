@@ -15,3 +15,18 @@
     font-size: 5em;
 }
 
+.section-block {
+    position: relative;
+    padding-bottom: 5em;
+}
+
+.section-block:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    height: 1.5px;
+    width: 60%;
+    background: var(--light-gray);
+}

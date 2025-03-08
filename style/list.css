@@ -7,3 +7,7 @@ ul li::before {
     position: absolute;
     margin-left: -20px;
 }
+
+ol li::before {
+    content: none;
+}

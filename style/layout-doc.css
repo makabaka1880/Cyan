@@ -6,10 +6,26 @@
 
 .heading-block, .section-block {
     display: flex;
-flex-direction: column;
+    flex-direction: column;
     padding: 20px;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.section-block {
+    position: relative;
+    padding-bottom: 5em;
+}
+
+.section-block:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    height: 1.5px;
+    width: 60%;
+    background: var(--light-gray);
 }
 
 .heading-block h1 {
